@@ -4,8 +4,8 @@ const pen ={
     color: 'black'
 }
 const pencil = new Object()
-console.log(pencil)
+// console.log(pencil)
 const rubber = Object.create({})
-console.log(rubber)
+// console.log(rubber)
 
 // using new
