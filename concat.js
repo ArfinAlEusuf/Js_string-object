@@ -7,3 +7,7 @@ const fullName= frist +' '+ last;
 
 const fullName2 = frist.concat(' ').concat(last)
 console.log(fullName2);
+
+// includes
+
+console.log(last.includes('x'));
