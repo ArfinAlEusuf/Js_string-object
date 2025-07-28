@@ -8,3 +8,7 @@ console.log(sentence.split('a'));
 
 const friends = 'rahim,kahim,dahi,lahim,fahim,sahim'
 console.log(friends.split(','));
+
+const realFriend= ['rahim','kahim','dahim','lahim','fahim','sahim' ];
+console.log(realFriend.join());
+console.log(realFriend.join('-'));
