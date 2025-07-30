@@ -1,17 +1,13 @@
-const pen = {
-    brand: 'econo',
-    price: 10,
-    color: 'black'
+const str = ["happy ending", 'the end']; 
+const targetLetter = "n";
+let count = 0;
+let char = str[1];
+console.log(char);
+for (let i = 0; i < str.length; i++) {
+    if (str[i] === targetLetter) {
+        count++;
+    }
 }
 
-const pens = Object.keys(pen)
-const index = pens.length
-// console.log(index)
-
-const nam= ["happy ending"]
-for(let i in nam){
-    console.log(i);
-}
-/**
- * 1. kono string e ekta letter koybar ache ta bat kora
- */
+// console.log(`${targetLetter} found ${count} times in ${str}`)
+// console.log('n is:', count)
